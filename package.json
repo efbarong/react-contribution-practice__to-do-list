@@ -1,7 +1,7 @@
 {
   "name": "react-contribution-practice__to-do-list",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -29,5 +29,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
     "vite": "^6.3.5"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx}": "eslint --fix"
   }
 }
